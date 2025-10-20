@@ -18,7 +18,7 @@ jobs:
         run: node --version
 
       - name: Generate Test JSON Data
-        run: node generateTestJson.js
+        run: node generateJson.js
 
       - name: Commit and Push Changes
         run: |
