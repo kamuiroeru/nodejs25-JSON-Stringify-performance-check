@@ -26,8 +26,5 @@ jobs:
       - name: Display Node.js version
         run: node --version
 
-      - name: Generate JSON data
-        run: node generateJson.js
-
       - name: Run benchmark
         run: node bench.js
